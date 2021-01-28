@@ -1,0 +1,70 @@
+@media (min-width: 1281px) {
+    .header {
+        padding-bottom: 17px;
+        margin-bottom:37px;
+    }
+}
+@media (max-width: 1050px) {
+    .header__phone__whatsapp,
+    .header__phone__content {
+        display: none;
+    }
+    .header__item{
+        padding:10px 20px 10px 0;
+    }
+}
+
+@media (min-width: 1051px) {
+    .header__phone__whatsapp-mob,
+    .header__phone__content-mob {
+        display: none;
+    }
+    .whatsapp__logo{
+        margin-right:16px;
+    }
+    .header__item{
+        padding:10px 15px;
+    }
+}
+
+.header {
+    padding-top: 50px;
+
+}
+
+.header a{
+    color:white;
+}
+.header__container {
+    max-width: 1450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__item{
+    font-size:16px;
+    margin-left:5px;
+}
+.header__phone {
+    display: flex;
+    align-items: center;
+}
+.header__phone__content,
+.header__phone__content-mob{
+    padding-right:30px;
+}
+.whatsapp{
+    background-color: #4F15F3;
+    border-radius: 9px;
+    display:flex;
+    align-items: center;
+    padding:12px 24px;
+    font-size: 17px;
+    line-height: 16px;
+}

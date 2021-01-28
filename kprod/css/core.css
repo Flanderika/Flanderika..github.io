@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+@media (max-width: 766px) {
+    .container__outer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media (min-width: 767px) {
+    .container__outer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.main__container {
+    min-width: 320px;
+    background:url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
