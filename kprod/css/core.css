@@ -5,6 +5,10 @@
 a{
     text-decoration: none;
 }
+input,
+button{
+    outline: none;
+}
 @media (max-width: 766px) {
     .container__outer {
         padding-left: 16px;
