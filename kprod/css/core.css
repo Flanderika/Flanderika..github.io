@@ -8,6 +8,10 @@ a{
 input,
 button{
     outline: none;
+    border:none;
+}
+button{
+    cursor: pointer;
 }
 @media (max-width: 766px) {
     .container__outer {

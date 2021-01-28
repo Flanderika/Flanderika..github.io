@@ -30,6 +30,7 @@
     }
     .hero__image{
         margin-top:-73px;
+        margin-left:-80px;
     }
 }
 
@@ -87,7 +88,7 @@ bottom: 27%;
 }
 
 .hero__main__input {
-    padding: 15px 65px 10px 19px;
+    padding: 15px 65px 13px 19px;
     font-size: 18px;
     line-height: 28px;
     width: 196px;
@@ -106,7 +107,13 @@ bottom: 27%;
     line-height: 28px;
     min-width: 335px;
     color: white;
-    padding: 15px 55px 10px 55px;
+    padding: 15px 55px 13px 55px;
+}
+.hero__main__button:hover{
+    background: #ff4a4a;
+}
+.hero__main__button:active{
+    background: #F86161;
 }
 
 .hero__wrapper {
