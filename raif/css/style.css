@@ -1,0 +1,22 @@
+@import url('core.css');
+@import url('blocks/app.css');
+@import url('blocks/calculate.css');
+@import url('blocks/feature.css');
+@import url('blocks/footer.css');
+@import url('blocks/form.css');
+@import url('blocks/header.css');
+@import url('blocks/hero.css');
+@import url('blocks/offer.css');
+@font-face {
+    font-family: 'ALS-Hauss';
+    src: url('../fonts/ALS_Hauss_Regular_2.1.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Navigo';
+    src: url('../fonts/Navigo-Bold-Desktop.otf');
+    font-weight: bold;
+    font-style: normal;
+}

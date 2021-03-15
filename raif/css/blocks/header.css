@@ -1,0 +1,68 @@
+@media (max-width: 766px) {
+    .header__phone-content {
+        display: none;
+    }
+    .main__logo {
+        width: 133px;
+        height: 28px;
+        padding-right: 29px;
+    }
+    .visa__logo {
+        margin-left: 25px;
+        width: 74px;
+        height: 24px;
+    }
+}
+
+@media (min-width: 767px) {
+    .header__phone-content-mob {
+        display: none;
+    }
+    .main__logo {
+        padding-right: 35px;
+    }
+    .visa__logo {
+        margin-left: 35px;
+    }
+}
+
+.header {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.header__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logos {
+    display: flex;
+    align-items: center;
+}
+
+.main__logo {
+    border-right: 1px solid #E1E1E3;
+}
+
+.header__phone {
+    text-align: right;
+}
+
+.header__phone-number {
+    text-decoration: none;
+    color: #2B2D33;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.header__phone-text {
+    color: #808185;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.header__phone-content-mob {
+    padding-top: 2px;
+}
