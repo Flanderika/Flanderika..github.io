@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@font-face {
+    font-family: 'icons';
+    src: url('../fonts/icons.ttf?6xl1qv') format('truetype'), url('../fonts/icons.woff?6xl1qv') format('woff'), url('../fonts/icons.svg?6xl1qv#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@media (min-width: 769px) {
+    .hero__content {
+        padding-top: 150px;
+    }
+    .header {
+        padding: 56px 0;
+    }
+    .wrapper {
+        background-position: right;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        justify-content: center;
+    }
+    .header {
+        padding: 40px 0;
+    }
+    .hero__content {
+        padding-top: 75px;
+    }
+    .wrapper {
+        background-position: bottom;
+    }
+}
+
+@media (max-width: 551px) {
+    body {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .btn__grey span:last-child {
+        display: none;
+    }
+    .user__name {
+        display: none;
+    }
+    .hero__content {
+        padding-top: 0;
+    }
+    .hero__tag-list span {
+        color: #E5E5E5;
+        font-size: 13px;
+    }
+    .hero {
+        height: 729px;
+    }
+}
+
+@media(min-width:552px) {
+    body {
+        font-size: 21px;
+        line-height: 29px;
+    }
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-play:before {
+    content: "\e901";
+    color: #fff;
+    margin-right: 10px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #010202;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    background-image: url('../img/cover-image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1176px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    color: white;
+    transition: color 0.3s ease 0s;
+}
+
+.logo:hover {
+    color: #EA6E20;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user__avatar {
+    flex: 0 0 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.user__name {
+    color: white;
+    margin-right: 15px;
+}
+
+.user__avatar img, .film-logo img {
+    max-width: 100%;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__film-logo img {
+    max-width: 100%;
+}
+
+.hero__tag-list {
+    margin: 10px 0;
+}
+
+.hero__tag-list span {
+    color: #E5E5E5;
+    font-weight: 400;
+    line-height: 22px;
+    opacity: 0.4;
+    margin-right: 15px;
+}
+
+.hero__tag-list span:last-child {
+    margin-right: 0;
+    padding: 1px 5px;
+    border: 1px solid #FFFFFF;
+}
+
+.hero__buttons {
+    margin-top: 36px;
+}
+
+.btn {
+    display: inline-flex;
+    background-color: #2F2F2F;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 25px;
+    height: 50px;
+    color: white;
+    transition: background-color 0.3s ease 0s;
+}
+
+.btn:hover {
+    background-color: #242323;
+}
+
+.btn__colored {
+    background-color: #EA6E20;
+    margin-right: 10px;
+}
+
+.btn__colored:hover {
+    background-color: #be5717;
+}
