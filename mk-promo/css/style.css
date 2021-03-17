@@ -38,7 +38,7 @@
         align-self: center;
     }
     .wrapper {
-        background-position: bottom;
+        background-position: 0 150%;
     }
 }
 
@@ -60,15 +60,15 @@
         color: #E5E5E5;
         font-size: 13px;
     }
-    .hero {
-        height: 729px;
-    }
 }
 
-@media(min-width:552px) {
+@media(min-width: 552px) {
     body {
         font-size: 21px;
         line-height: 29px;
+    }
+    ._icon-play:before {
+        margin-right: 10px;
     }
 }
 
@@ -89,7 +89,6 @@
 ._icon-play:before {
     content: "\e901";
     color: #fff;
-    margin-right: 10px;
 }
 
 html {
