@@ -110,6 +110,7 @@ a {
 }
 
 .wrapper {
+    position: relative;
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
@@ -226,4 +227,12 @@ a {
 
 .btn__colored:hover {
     background-color: #be5717;
+}
+
+#toasty-button {
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+    cursor: pointer;
 }
