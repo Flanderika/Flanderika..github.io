@@ -240,5 +240,6 @@ a {
 }
 
 #hidden-content {
-    background: #010202;
+    background-image: url(/mk-promo/img/scorpion.jpg);
+    background-size: cover;
 }
