@@ -19,8 +19,8 @@
       //Add to dom needed elements
       $("body").append(
         '<div id="toasty-guy-dan"><img src="' +
-          this.options.image +
-          '" alt="toasty"></div>'
+        this.options.image +
+        '" alt="toasty"></div>'
       );
       $("#toasty-guy-dan").css("position", "fixed");
       $("#toasty-guy-dan").css("right", "-170px");
@@ -28,8 +28,8 @@
       if (this.options.sound) {
         $("body").append(
           '<audio id="toasty-audio"><source src="' +
-            this.options.sound +
-            '" type="audio/mpeg"></source></audio>'
+          this.options.sound +
+          '" type="audio/mpeg"></source></audio>'
         );
       }
     },
